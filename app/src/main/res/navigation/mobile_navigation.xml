@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_matchmaking">
+
+    <fragment
+        android:id="@+id/nav_matchmaking"
+        android:name="com.jarndt.tournament_app.ui.matchmaking.MatchmakingFragment"
+        android:label="@string/menu_matchmaking"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_locations"
+        android:name="com.jarndt.tournament_app.ui.locations.LocationsFragment"
+        android:label="@string/menu_locations"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.jarndt.tournament_app.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.jarndt.tournament_app.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.jarndt.tournament_app.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.jarndt.tournament_app.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

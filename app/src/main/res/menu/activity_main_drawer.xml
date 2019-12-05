@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_matchmaking"
+            android:icon="@drawable/ic_games_black_24dp"
+            android:title="@string/menu_matchmaking" />
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="@string/menu_locations" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_profile" />
+<!--        <item-->
+<!--            android:id="@+id/nav_tools"-->
+<!--            android:icon="@drawable/ic_menu_manage"-->
+<!--            android:title="@string/menu_tools" />-->
+    </group>
+
+<!--    <item android:title="@string/communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+    <item android:title="@string/management">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

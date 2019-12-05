@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tournament App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_matchmaking">Matchmaking</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="todo">TODO</string>
+
+    <string name="loading">Loading…</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="logout">Logout</string>
+    <string name="management">Management</string>
+    <string name="communicate">Communicate</string>
+    <string name="please_register">Please Register.  Click here to resent link</string>
+    <string name="verify_sent">Verify Link sent please click on the link in email</string>
+
+</resources>

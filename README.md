@@ -1,1 +1,3 @@
-/Users/jarndt/code_projects/tournamentapp
+# Base Android Firebase App
+Add `app/src/google-services.json` to connect to firebase
+
